@@ -31,6 +31,7 @@ if __name__ == '__main__':
     OUT_PATH = 'E:\\new_model(Unet + SRGAN)\\Unet + SRGAN_AutoEncoder\\'
     CHECKPOINT_PATH = OUT_PATH+'checkpoint/'
 
+    ## data 경로
     train_set = traindataset('E:\\Image_Captioning_data\\default\\train2014', crop_size=CROP_SIZE, upsampling_factor=UPSCALE_FACTOR)
     train_loader = DataLoader(dataset=train_set, num_workers=0, batch_size=NUM_BATCH, shuffle=True)
 
