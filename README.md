@@ -29,3 +29,4 @@
 |  Proposed method  |  30.497  | 0.8420 |
 
 ## Results
+<img src="./image/Result_image.png"/>
