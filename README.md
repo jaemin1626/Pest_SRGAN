@@ -29,4 +29,5 @@
 |  Proposed method  |  30.497  | 0.8420 |
 
 ## Results
+<li>We can observe reduced artifacts in the edge regions compared to the original SRGAN.</li>
 <img src="./image/Result_image.png"/>
