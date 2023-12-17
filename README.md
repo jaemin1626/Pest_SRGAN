@@ -12,6 +12,16 @@
 ## Explain Data
 <li>To train the proposed super-resolution model, we utilized the publicly available <a href="https://github.com/xpwu95/IP102">IP102 dataset</a>, which consists of a total of 102 classified insects, comprising a collection of 7,558 images. In this study, we removed unnecessary images, such as those containing only backgrounds or watermarks. The training and testing data were split in a 7:3 ratio, and data augmentation techniques, such as flipping and cropping transformations, were applied to prevent overfitting.</li>
 
+## Training Environment
+<li> python = 3.8.18 </li>
+<li> pytorch = 1.9.1+cu11.1 </li>
+<li> GPU = NVIDIA GeForce RTX 3060 </li>
+<li> CPU = Ryzen 5 5600X 6-Core Processor </li>
+<li> epoch = 200 </li>
+<li> batch size = 10 </li>
+<li> learning rate = 0.001 </li>
+<li> optimizer = Adam </li>
+
 ## Evaluation
 |      Methods      |   PSNR   |  SSIM  |
 |      -------      |   ----   |  ----  |
